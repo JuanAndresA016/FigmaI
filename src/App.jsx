@@ -25,6 +25,12 @@ function App() {
   return (
     <>
       <h1>PRODUCTOS EN VENTA</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quis,
+        ducimus sapiente maiores aliquid consectetur sequi nisi quae corrupti
+        asperiores laudantium possimus quo. Necessitatibus eveniet voluptate
+        minus doloribus. Velit, culpa?
+      </p>
       <div className="container">
         {products.map((product) => (
           <div key={product.id}>
