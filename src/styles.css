@@ -14,7 +14,7 @@
 }
 
 .image-container {
-  background-color: darkblue;
+  background-color: #202020;
   border-radius: 5%;
   width: 200px;
   height: 350px;
@@ -25,5 +25,5 @@
 
 .button {
   color: white;
-  background-color: #004687;
+  background-color: #202020;
 }

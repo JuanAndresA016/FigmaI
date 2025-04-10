@@ -24,17 +24,8 @@ function App() {
 
   return (
     <>
-      <body style={{ backgroundColor: "#005A9C" }}>
-        <header
-          style={{
-            backgroundColor: "darkblue",
-            width: "100%",
-            height: "100%",
-            color: "white",
-          }}
-        >
-          <h1>PRODUCTOS EN VENTA</h1>
-        </header>
+      <body style={{ backgroundColor: "#FFFFFF" }}>
+          <h1 style={{color: "#202020"}}>PRODUCTOS EN VENTA</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
           quis, ducimus sapiente maiores aliquid consectetur sequi nisi quae
