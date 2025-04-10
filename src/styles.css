@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.images {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
