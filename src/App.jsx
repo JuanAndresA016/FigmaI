@@ -24,7 +24,17 @@ function App() {
 
   return (
     <>
-      <h1>PRODUCTOS EN VENTA</h1>
+    <body style={{backgroundColor: "#005A9C"}}>
+      <header
+        style={{
+          backgroundColor: "darkblue",
+          width: "100%",
+          height: "100%",
+          color: "white",
+        }}
+      >
+        <h1>PRODUCTOS EN VENTA</h1>
+      </header>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quis,
         ducimus sapiente maiores aliquid consectetur sequi nisi quae corrupti
@@ -33,16 +43,22 @@ function App() {
       </p>
       <div className="container">
         {products.map((product) => (
-          <div key={product.id}>
-            <h3>{product.name}</h3>
-            {product.image && <img src={product.image} className="images" />}
-            <p>${product.price}</p>
-            <button onClick={() => alert(`Agregado ${product.name}`)}>
-              Agregar
-            </button>
+          <div className="image-container">
+            <div key={product.id}>
+              <h3>{product.name}</h3>
+              {product.image && <img src={product.image} className="images" />}
+              <p>${product.price}</p>
+              <button
+                className="button"
+                onClick={() => alert(`Agregado ${product.name}`)}
+              >
+                Agregar
+              </button>
+            </div>
           </div>
         ))}
       </div>
+      </body>
     </>
   );
 }

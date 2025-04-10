@@ -11,3 +11,18 @@
   justify-content: center;
   border-radius: 50px;
 }
+
+.image-container{
+  background-color: darkblue;
+  border-radius: 5%;
+  width: 200px;
+  height: 350px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  color: white;
+  background-color: #005A9C;
+}
